@@ -1,32 +1,4 @@
 # Circle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import pygame
 
 pygame.init()
