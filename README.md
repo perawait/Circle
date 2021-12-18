@@ -6,7 +6,7 @@ pygame.init()
 display = pygame.display.set_mode((1280,720))
 
 clock = pygame.time.Clock()
-fps = 30
+fps = 60
 y = 350
 x = 0
 while True : 
@@ -23,8 +23,7 @@ while True :
         y += 1
 
     # compute
-    #ควายโก้
-    display.fill('black')
+    display.fill('white')
     pygame.draw.circle(display, 'red', (x, y), 50)
     
 
